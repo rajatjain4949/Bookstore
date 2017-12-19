@@ -4,8 +4,9 @@ node_js:
  
  addons:
   sonarcloud:
-  organization:"rajatjain4994-github"
-  token:"39b9a27de70445b14d3770e7ec8865e024f3f6af"
+   organization:"rajatjain4994-github"
+   token:
+    secure:"39b9a27de70445b14d3770e7ec8865e024f3f6af"
  script:
   -sonar-scanner
   -npm test
